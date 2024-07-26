@@ -7,11 +7,11 @@ const Footer = () => {
       <div className="grid grid-cols-1 md:grid-cols-4 pb-9 pt-3">
         <div className=" w[100%] h-[100%] text-center p-6">
           <h1 className="relative text-xl text-[#fff] mb-5 ">
-            Mystic
+            foot
             <span className="font-bold text-[#ff00008d] text-[24px]">
-              Routes
+              LOOSE
             </span>
-            <p className="absolute text-[#ff00008d] text-[9px] bottom-[-18px] left-[80px]">
+            <p className="absolute text-[#ff00008d] text-[9px] bottom-[-18px] left-[85px]">
               Your Dream Destination
             </p>
           </h1>
@@ -75,12 +75,12 @@ const Footer = () => {
       {/* bottom */}
       <div className="flex flex-col md:flex-row md:justify-between px-10 justify-center items-center py-4 gap-7 pb-[17px]  bg-[#000000] text-white">
         <p className="text-[10px] md:text-[8px] tracking-[4px]">
-          © 2023 Mystic<span className="text-red-500 font-bold">Routes</span>{" "}
-          ALL RIGHTS RESERVED.
+          © 2023 foot<span className="text-red-500 font-bold">LOOSE</span> ALL
+          RIGHTS RESERVED.
         </p>
         <h1 className="text-xl text-[#fff] ">
-          Mystic
-          <span className="font-bold text-[#ff00008d] text-[24px]">Routes</span>
+          foot
+          <span className="font-bold text-[#ff00008d] text-[24px]">LOOSE</span>
         </h1>
         <p className="text-[10px] font-bold tracking-[4px]">
           FLY ABOVE THE WORLD

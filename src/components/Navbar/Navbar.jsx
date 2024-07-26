@@ -6,8 +6,8 @@ const Navbar = () => {
     <div className="flex justify-between items-center px-4 py-5 bg-black">
       <div className="flex items-center">
         <h1 className="relative text-xl text-[#fff] ">
-          Mystic
-          <span className="font-bold text-[#ff00008d] text-[24px]">Routes</span>
+          foot
+          <span className="font-bold text-[#ff00008d] text-[24px]">LOOSE</span>
           <p className="absolute text-[#ff00008d] text-[9px] bottom-[-18px] left-[20px]">
             Your Dream Destination
           </p>

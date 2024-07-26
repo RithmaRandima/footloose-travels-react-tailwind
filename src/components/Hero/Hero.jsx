@@ -50,9 +50,9 @@ const Hero = () => {
             }}
             className="text-4xl py-5 italic"
           >
-            With <span className="ml-[15px]">Mystic</span>
+            With <span className="ml-[15px]">foot</span>
             <span className="text-red-500 uppercase font-bold text-[50px]">
-              <ReactTyped strings={["Routes"]} typeSpeed={490} loop />
+              <ReactTyped strings={["LOOSE"]} typeSpeed={490} loop />
             </span>
           </motion.h2>
           <motion.p

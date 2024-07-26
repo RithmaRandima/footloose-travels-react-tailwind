@@ -36,9 +36,9 @@ const AboutDetails = () => {
           className="text-5xl my-4 mb-8 leading-tight"
         >
           Welcome To <br />
-          <span> Mystic</span>
+          <span> foot</span>
           <span className="text-red-500 uppercase font-bold text-[50px] mr-4">
-            <ReactTyped strings={["Routes"]} typeSpeed={490} loop />
+            <ReactTyped strings={["LOOSE"]} typeSpeed={490} loop />
           </span>
         </motion.h1>
         <motion.p
