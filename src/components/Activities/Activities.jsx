@@ -1,8 +1,8 @@
 import React from "react";
 
-import activity_img1 from "../../assets/activity-1.jpg";
-import activity_img2 from "../../assets/activity-2.jpg";
-import activity_img3 from "../../assets/activity-3.jpg";
+import activity_img1 from "../../assets/activity-1.jpeg";
+import activity_img2 from "../../assets/activity-2.jpeg";
+import activity_img3 from "../../assets/activity-3.jpeg";
 import ActivityBox from "../ActivityBox/ActivityBox";
 
 const Activities = () => {

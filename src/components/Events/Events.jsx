@@ -1,9 +1,9 @@
 import React from "react";
-import background from "../../assets/Event-Background.jpg";
-import img1 from "../../assets/event1.jpg";
-import img2 from "../../assets/event2.jpg";
-import img3 from "../../assets/event3.jpg";
-import img4 from "../../assets/event4.jpg";
+import background from "../../assets/Event-Background.jpeg";
+import img1 from "../../assets/event1.jpeg";
+import img2 from "../../assets/event2.jpeg";
+import img3 from "../../assets/event3.jpeg";
+import img4 from "../../assets/event4.jpeg";
 import { Background, Parallax } from "react-parallax";
 import { ReactTyped } from "react-typed";
 import EventsBox from "./EventsBox/EventsBox";

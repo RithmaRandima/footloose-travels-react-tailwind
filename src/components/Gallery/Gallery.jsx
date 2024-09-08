@@ -1,9 +1,9 @@
 import React from "react";
-import gallery_img1 from "../../assets/Gallery-1.jpg";
-import gallery_img2 from "../../assets/Gallery-2.jpg";
-import gallery_img3 from "../../assets/Gallery-3.jpg";
-import gallery_img4 from "../../assets/Gallery-4.jpg";
-import gallery_img5 from "../../assets/Gallery-5.jpg";
+import gallery_img1 from "../../assets/Gallery-1.jpeg";
+import gallery_img2 from "../../assets/Gallery-2.jpeg";
+import gallery_img3 from "../../assets/Gallery-3.jpeg";
+import gallery_img4 from "../../assets/Gallery-4.jpeg";
+import gallery_img5 from "../../assets/Gallery-5.jpeg";
 import { motion } from "framer-motion";
 
 const Gallery = () => {

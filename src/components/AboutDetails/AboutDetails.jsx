@@ -1,7 +1,7 @@
 import React from "react";
-import about_top from "../../assets/about-img-3.jpg";
-import about_bottom from "../../assets/Event-Background.jpg";
-import about_Big from "../../assets/Gallery-5.jpg";
+import about_top from "../../assets/about-img-3.jpeg";
+import about_bottom from "../../assets/Event-Background.jpeg";
+import about_Big from "../../assets/Gallery-5.jpeg";
 import { motion } from "framer-motion";
 import { ReactTyped } from "react-typed";
 

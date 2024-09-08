@@ -1,11 +1,11 @@
 import React from "react";
 import OfferBox from "./OfferBox/OfferBox";
-import img1 from "../../assets/about-img-1.jpg";
-import img2 from "../../assets/about-img-2.jpg";
-import img3 from "../../assets/about-img-3.jpg";
-import img4 from "../../assets/about-img-4.jpg";
-import img5 from "../../assets/about-img-5.jpg";
-import img6 from "../../assets/about-img-6.jpg";
+import img1 from "../../assets/about-img-1.jpeg";
+import img2 from "../../assets/about-img-2.jpeg";
+import img3 from "../../assets/about-img-3.jpeg";
+import img4 from "../../assets/about-img-4.jpeg";
+import img5 from "../../assets/about-img-5.jpeg";
+import img6 from "../../assets/about-img-6.jpeg";
 
 const Offer = () => {
   return (

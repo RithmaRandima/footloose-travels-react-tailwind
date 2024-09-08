@@ -1,9 +1,9 @@
 import React from "react";
-import img1 from "../../assets/package-1.jpg";
-import img2 from "../../assets/package-2.jpg";
-import img3 from "../../assets/package-3.jpg";
-import img4 from "../../assets/package-4.jpg";
-import img5 from "../../assets/package-5.jpg";
+import img1 from "../../assets/package-1.jpeg";
+import img2 from "../../assets/package-2.jpeg";
+import img3 from "../../assets/package-3.jpeg";
+import img4 from "../../assets/package-4.jpeg";
+import img5 from "../../assets/package-5.jpeg";
 import PackageBox from "./PackageBox/PackageBox";
 
 const Package = () => {

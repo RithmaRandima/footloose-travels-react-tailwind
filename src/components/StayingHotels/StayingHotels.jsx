@@ -1,9 +1,9 @@
 import React from "react";
-import img1 from "../../assets/hotel1.jpg";
-import img2 from "../../assets/hotel2.jpg";
-import img3 from "../../assets/hotel3.jpg";
-import img4 from "../../assets/hotel4.jpg";
-import img5 from "../../assets/hotel5.jpg";
+import img1 from "../../assets/hotel1.jpeg";
+import img2 from "../../assets/hotel2.jpeg";
+import img3 from "../../assets/hotel3.jpeg";
+import img4 from "../../assets/hotel4.jpeg";
+import img5 from "../../assets/hotel5.jpeg";
 import StayingHotelBox from "./StayingHotelBox/StayingHotelBox";
 
 const StayingHotels = () => {
