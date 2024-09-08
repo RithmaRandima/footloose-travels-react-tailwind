@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
-    <div className="w-full h-[90vh] relative bg-red-500 overflow-hidden">
+    <div className="w-full h-[90vh] relative overflow-hidden">
       <video
         autoPlay
         loop

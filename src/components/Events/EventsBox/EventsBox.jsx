@@ -12,8 +12,8 @@ const EventsBox = (props) => {
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam,
           minima.
         </p>
-        <button className="uppercase text-[10px] hover:scale-90 duration-200 ">
-          Show More
+        <button className="uppercase text-[10px] hover:scale-90 duration-200 mt-5 ">
+          See More
         </button>
       </div>
       <img src={props.img} className="w-[100%] h-[100%] object-cover" alt="" />

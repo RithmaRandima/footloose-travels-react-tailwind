@@ -10,9 +10,9 @@ const Package = () => {
   return (
     <div className="flex flex-col max-w-[1240px] mx-auto h-[100%] m-a">
       <div className="py-10 px-2 pb-14">
-        <p className="text-gray-700 text-[24px] my-1">Special Offers</p>
-        <h1 className="text-3xl md:text-4xl">
-          <span className="font-bold">Top </span>
+        <p className="text-gray-700 text-[24px] my-1 ">Special Offers</p>
+        <h1 className="text-3xl md:text-4xl uppercase">
+          <span className="font-bold ">Top </span>
           Tour Packages
         </h1>
       </div>

@@ -10,8 +10,8 @@ const StayingHotels = () => {
   return (
     <div className="hidden md:flex flex-col max-w-[1240px] m-auto w-ful p-3 sm:mb-[50px] h-[2700px] md:h-[790px] ">
       <div className="py-10 px-2 pb-14">
-        <p className="text-gray-700 text-[24px] my-1">Special Offers</p>
-        <h1 className="text-3xl md:text-4xl">
+        <p className="text-gray-700 text-[24px] my-1 ">Special Offers</p>
+        <h1 className="text-3xl md:text-4xl uppercase">
           <span className="font-bold">Popular </span>
           Hotels & Rooms
         </h1>

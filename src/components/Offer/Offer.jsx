@@ -17,7 +17,7 @@ const Offer = () => {
           <span className="font-bold"> OFFERS </span>
         </h1>
       </div>
-      <div className="w-[100%] h-[100%] grid grid-cols-1 md:grid-cols-3">
+      <div className="hidden md:grid w-[100%] h-[100%] grid-cols-1 md:grid-cols-3">
         <OfferBox
           img={img1}
           country={"spain"}
@@ -58,6 +58,30 @@ const Offer = () => {
           country={"ITALY"}
           place={"Grand Italy"}
           day_count={"8 days"}
+          price={"3000"}
+        />
+      </div>
+
+      <div className="md:hidden w-[100%] h-[100%] grid grid-cols-1 md:grid-cols-3">
+        <OfferBox
+          img={img1}
+          country={"spain"}
+          place={"Grand Spain Madrid"}
+          day_count={"9 days"}
+          price={"3000"}
+        />
+        <OfferBox
+          img={img2}
+          country={"TURKEY"}
+          place={"Grand Turkey"}
+          day_count={"8 days"}
+          price={"2000"}
+        />
+        <OfferBox
+          img={img3}
+          country={"SLOVENIA, HUNGARY, CZECH"}
+          place={"East Europe"}
+          day_count={"10 days"}
           price={"3000"}
         />
       </div>

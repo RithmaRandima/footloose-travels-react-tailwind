@@ -5,13 +5,14 @@ const Footer = () => {
   return (
     <div className="w-[100%] text-white  bg-[#050505]" id="footer">
       <div className="grid grid-cols-1 md:grid-cols-4 pb-9 pt-3">
-        <div className=" w[100%] h-[100%] text-center p-6">
+        {/* logo */}
+        <div className=" w[100%] h-[100%] text-center p-6 ">
           <h1 className="relative text-xl text-[#fff] mb-5 ">
             foot
             <span className="font-bold text-[#ff00008d] text-[24px]">
               LOOSE
             </span>
-            <p className="absolute text-[#ff00008d] text-[9px] bottom-[-18px] left-[85px]">
+            <p className="absolute text-[#ff00008d] text-[9px] bottom-[-18px] left-[250px] md:left-[85px]">
               Your Dream Destination
             </p>
           </h1>
@@ -73,7 +74,7 @@ const Footer = () => {
       </div>
 
       {/* bottom */}
-      <div className="flex flex-col md:flex-row md:justify-between px-10 justify-center items-center py-4 gap-7 pb-[17px]  bg-[#000000] text-white">
+      <div className="hidden md:flex flex-col md:flex-row md:justify-between px-10 justify-center items-center py-4 gap-7 pb-[17px]  bg-[#000000] text-white">
         <p className="text-[10px] md:text-[8px] tracking-[4px]">
           © 2023 foot<span className="text-red-500 font-bold">LOOSE</span> ALL
           RIGHTS RESERVED.

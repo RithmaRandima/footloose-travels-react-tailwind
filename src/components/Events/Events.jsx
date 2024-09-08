@@ -10,9 +10,9 @@ import EventsBox from "./EventsBox/EventsBox";
 
 const Events = () => {
   return (
-    <div className="gallery-event-bg-container flex flex-col w-full h-[500vh] md:h-[100vh]">
+    <div className="gallery-event-bg-container flex flex-col w-full h-[210vh] md:h-[100vh]">
       <Parallax strength={300} className="w-[100%] h-[100%]">
-        <Background className="custom-bg w-[100vw] object-cover h-[100%]">
+        <Background className="custom-bg w-[100vw] object-cover h-[210vh] md:h-[100vh]">
           <img
             src={background}
             alt="fill murray"
@@ -31,51 +31,10 @@ const Events = () => {
         </div>
 
         <div className="w-full grid grid-cols-1 md:h-[400px] h-[100%] md:grid-cols-4 gap-10 px-10">
-          <div className="w-[100%] h-[400px] relative">
-            <div className="absolute w-[100%] h-[100%] bg-gradient-to-t from-black/40 to-black/30 flex flex-col justify-center items-center text-center px-6 z-10 text-white">
-              <h1 className="uppercase text-[22px] my-4">Rithma Randima</h1>
-              <p className="text-[14px]">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam,
-                minima.
-              </p>
-            </div>
-            <img src={img1} className="w-[100%] h-[100%] object-cover" alt="" />
-          </div>
-
+          <EventsBox img={img1} />
           <EventsBox img={img2} />
-
-          <div className="w-[100%] h-[100%] relative">
-            <div className="absolute w-[100%] h-[100%] bg-gradient-to-t from-black/40 to-black/30 flex flex-col justify-center items-center text-center px-6 z-10 text-white">
-              <h1 className="uppercase text-[22px] my-4">Rithma Randima</h1>
-              <p className="text-[14px]">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam,
-                minima.
-              </p>
-            </div>
-            <img src={img2} className="w-[100%] h-[100%] object-cover" alt="" />
-          </div>
-
-          <div className="w-[100%] h-[400px] relative">
-            <div className="absolute w-[100%] h-[100%] bg-gradient-to-t from-black/40 to-black/30 flex flex-col justify-center items-center text-center px-6 z-10 text-white">
-              <h1 className="uppercase text-[22px] my-4">Rithma Randima</h1>
-              <p className="text-[14px]">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam,
-                minima.
-              </p>
-            </div>
-            <img src={img3} className="w-[100%] h-[100%] object-cover" alt="" />
-          </div>
-
-          <div className="w-[100%] h-[100%] relative">
-            <div className="absolute w-[100%] h-[100%] bg-gradient-to-t from-black/40 to-black/30 flex flex-col justify-center items-center text-center px-6 z-10 text-white">
-              <h1 className="uppercase text-[22px] my-4">Rithma Randima</h1>
-              <p className="text-[14px]">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam,
-                minima.
-              </p>
-            </div>
-            <img src={img4} className="w-[100%] h-[100%] object-cover" alt="" />
-          </div>
+          <EventsBox img={img3} />
+          <EventsBox img={img4} />
         </div>
       </Parallax>
     </div>
