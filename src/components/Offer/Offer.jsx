@@ -7,7 +7,23 @@ import img4 from "../../assets/about-img-4.jpeg";
 import img5 from "../../assets/about-img-5.jpeg";
 import img6 from "../../assets/about-img-6.jpeg";
 
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
+
 const Offer = () => {
+  var settings = {
+    arrows: false,
+    dots: false,
+    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 5000,
+    speed: 1600,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    initialSlide: 0,
+  };
+
   return (
     <div className="mt-[-550px] md:mt-[50px] flex flex-col w-[100%] h-[100%]">
       <div className="py-10 px-5 pb-14">
@@ -61,29 +77,53 @@ const Offer = () => {
           price={"3000"}
         />
       </div>
-
-      <div className="md:hidden w-[100%] h-[100%] grid grid-cols-1 md:grid-cols-3">
-        <OfferBox
-          img={img1}
-          country={"spain"}
-          place={"Grand Spain Madrid"}
-          day_count={"9 days"}
-          price={"3000"}
-        />
-        <OfferBox
-          img={img2}
-          country={"TURKEY"}
-          place={"Grand Turkey"}
-          day_count={"8 days"}
-          price={"2000"}
-        />
-        <OfferBox
-          img={img3}
-          country={"SLOVENIA, HUNGARY, CZECH"}
-          place={"East Europe"}
-          day_count={"10 days"}
-          price={"3000"}
-        />
+      {/* mobile */}
+      {/* mobile */}
+      <div className="block md:hidden w-[100%] mx-auto h-[100%]">
+        <Slider {...settings}>
+          <OfferBox
+            img={img1}
+            country={"spain"}
+            place={"Grand Spain Madrid"}
+            day_count={"9 days"}
+            price={"3000"}
+          />
+          <OfferBox
+            img={img2}
+            country={"TURKEY"}
+            place={"Grand Turkey"}
+            day_count={"8 days"}
+            price={"2000"}
+          />
+          <OfferBox
+            img={img3}
+            country={"SLOVENIA, HUNGARY, CZECH"}
+            place={"East Europe"}
+            day_count={"10 days"}
+            price={"3000"}
+          />
+          <OfferBox
+            img={img4}
+            country={"AUSTRIA, SWITZERLAND"}
+            place={"Swiss Alps Trip"}
+            day_count={"13 days"}
+            price={"4000"}
+          />
+          <OfferBox
+            img={img5}
+            country={"ENGLAND, SCOTLAND, WALES"}
+            place={"UK Trip"}
+            day_count={"13 days"}
+            price={"5000"}
+          />
+          <OfferBox
+            img={img6}
+            country={"ITALY"}
+            place={"Grand Italy"}
+            day_count={"8 days"}
+            price={"3000"}
+          />
+        </Slider>
       </div>
     </div>
   );

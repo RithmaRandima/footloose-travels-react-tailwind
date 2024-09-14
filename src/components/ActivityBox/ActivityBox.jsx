@@ -11,7 +11,7 @@ const ActivityBox = (props) => {
         damping: 30,
         duration: 500,
       }}
-      className=" activity-img-container overflow-hidden relative h-[250px]"
+      className=" activity-img-container overflow-hidden relative h-[150px] md:h-[250px]"
     >
       <div className="z-10 absolute bg-gradient-to-t from-black/50 to-transparent w-[100%] h-[100%] flex items-end justify-center text-white pb-8">
         <h2 className="activity-img-title text-1xl font-bold duration-300">

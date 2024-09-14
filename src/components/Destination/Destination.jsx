@@ -5,7 +5,22 @@ import img3 from "../../assets/destination-3.jpeg";
 import img4 from "../../assets/destination-4.jpeg";
 import DestinationBox from "./DestinationBox/DestinationBox";
 
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
+
 const Destination = () => {
+  var settings = {
+    arrows: false,
+    dots: false,
+    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 5000,
+    speed: 1600,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    initialSlide: 0,
+  };
   return (
     <div
       id="destination"
@@ -18,6 +33,7 @@ const Destination = () => {
           Destination
         </h1>
       </div>
+      {/* desktop */}
       <div className="hidden md:grid  w-[100%]   grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 h-[100%] gap-3">
         <DestinationBox
           img={img1}
@@ -44,18 +60,33 @@ const Destination = () => {
         />
       </div>
 
-      <div className="md:hidden w-[100%]  grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 h-[100%] gap-3">
-        <DestinationBox
-          img={img1}
-          name={"Lion, Singapore"}
-          count={"3 Listing"}
-        />
+      {/* mobile */}
+      <div className="block md:hidden w-[100%] mx-auto h-[100%]">
+        <Slider {...settings}>
+          <DestinationBox
+            img={img1}
+            name={"Lion, Singapore"}
+            count={"3 Listing"}
+          />
 
-        <DestinationBox
-          img={img2}
-          name={"Lion, Singapore"}
-          count={"3 Listing"}
-        />
+          <DestinationBox
+            img={img2}
+            name={"Lion, Singapore"}
+            count={"3 Listing"}
+          />
+
+          <DestinationBox
+            img={img3}
+            name={"Lion, Singapore"}
+            count={"3 Listing"}
+          />
+
+          <DestinationBox
+            img={img4}
+            name={"Lion, Singapore"}
+            count={"3 Listing"}
+          />
+        </Slider>
       </div>
     </div>
   );
