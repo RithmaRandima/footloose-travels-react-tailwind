@@ -26,8 +26,8 @@ const Hero = () => {
       <div className="max-w-[1140px] m-auto">
         <div className="absolute top-[20%] w-full md:-[50%] max-w-[600px] h-full flex flex-col text-white p-4">
           <motion.h1
-            initial={{ opacity: 0, y: -100 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, x: -100 }}
+            whileInView={{ opacity: 1, x: 0 }}
             transition={{
               type: "spring",
               stiffness: 90,
@@ -39,8 +39,8 @@ const Hero = () => {
             Never stop Exploring
           </motion.h1>
           <motion.h2
-            initial={{ opacity: 0, y: -100 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, x: -100 }}
+            whileInView={{ opacity: 1, x: 0 }}
             transition={{
               type: "spring",
               stiffness: 90,
@@ -56,8 +56,8 @@ const Hero = () => {
             </span>
           </motion.h2>
           <motion.p
-            initial={{ opacity: 0, y: -100 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, x: -100 }}
+            whileInView={{ opacity: 1, x: 0 }}
             transition={{
               type: "spring",
               stiffness: 90,
@@ -78,7 +78,8 @@ const Hero = () => {
               type: "spring",
               stiffness: 90,
               damping: 10,
-              delay: 0.1,
+              duration: 400,
+              delay: 0.4,
             }}
             className="w-[150px] text-center my-[30px] bg-black  uppercase py-3 hover:bg-[#f00] hover:scale-90 duration-300 "
           >

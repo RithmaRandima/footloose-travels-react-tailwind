@@ -2,7 +2,7 @@ import React from "react";
 
 const PackageBox = (props) => {
   return (
-    <div className=" w-[100%] h-[100%] shadow-2xl shadow-black/20  hover:translate-y-[-7px] duration-300">
+    <div className=" w-[90%] md:w-[100%] h-[100%] shadow-2xl shadow-black/20  hover:translate-y-[-7px] duration-300 mx-auto">
       <img
         src={props.img}
         className="h-[280px]  w-[100%]  object-cover"

@@ -3,7 +3,7 @@ import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="w-[100%] text-white  bg-[#050505]" id="footer">
+    <div className="w-[100%] text-white pt-5 md:pt-0 bg-[#050505]" id="footer">
       <div className="grid grid-cols-1 md:grid-cols-4 pb-9 pt-3">
         {/* logo */}
         <div className=" w[100%] h-[100%] text-center md:p-6  ">
@@ -81,7 +81,7 @@ const Footer = () => {
           © 2023 foot<span className="text-red-500 font-bold">LOOSE</span> ALL
           RIGHTS RESERVED.
         </p>
-        <h1 className="hidden md: block text-xl text-[#fff] ">
+        <h1 className="hidden md:block text-xl text-[#fff] ">
           foot
           <span className="font-bold text-[#ff00008d] text-[24px]">LOOSE</span>
         </h1>

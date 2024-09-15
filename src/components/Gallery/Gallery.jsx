@@ -64,7 +64,7 @@ const Gallery = () => {
             type: "spring",
             stiffness: 100,
             damping: 80,
-            delay: 0.4,
+            delay: 0.3,
           }}
         >
           <img
@@ -81,7 +81,7 @@ const Gallery = () => {
             type: "spring",
             stiffness: 100,
             damping: 60,
-            delay: 0.7,
+            delay: 0.5,
           }}
         >
           <img
@@ -98,7 +98,7 @@ const Gallery = () => {
             type: "spring",
             stiffness: 100,
             damping: 50,
-            delay: 0.4,
+            delay: 0.2,
           }}
           className="border-[20px] border-black"
         >

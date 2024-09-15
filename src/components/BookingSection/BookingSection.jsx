@@ -5,14 +5,14 @@ const BookingSection = (props) => {
   return (
     <motion.div
       id="deals"
-      className="booking-container max-w-[1140px] m-auto w-full p-6 py-[20px] my-[100px] bg-black"
+      className="booking-container max-w-[1140px] m-auto w-full p-6 py-[20px] my-[50px] bg-black"
       initial={{ opacity: 0, y: 120 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{
         type: "spring",
         stiffness: 100,
         damping: 50,
-        duration: 10,
+        duration: 3,
       }}
     >
       <form className="lg:flex lg:justify-between w-full items-center text-white">

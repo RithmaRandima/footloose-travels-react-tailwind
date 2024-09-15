@@ -11,7 +11,7 @@ const AboutDetails = () => {
       id="about"
       className="max-w-[1140px] m-auto w-full  grid grid-cols-1 md:grid-cols-2 mb-[50px] text-center md:text-left  md:py-[50px]"
     >
-      <motion.div className="p-4 py-10">
+      <div className="p-4 py-10">
         <motion.p
           initial={{ opacity: 0, x: -100 }}
           whileInView={{ opacity: 1, x: 0 }}
@@ -63,13 +63,13 @@ const AboutDetails = () => {
             type: "spring",
             stiffness: 100,
             damping: 90,
-            delay: 0.1,
+            delay: 0.3,
           }}
           className="mt-10 text-[17px]"
         >
           Manager: <span className="text-red-500">Rithma Randima</span>
         </motion.p>
-      </motion.div>
+      </div>
       <div className="flex flex-row gap-2 h-[500px]">
         <div className="hidden md:flex flex-col gap-4">
           <motion.div
@@ -111,13 +111,13 @@ const AboutDetails = () => {
         </div>
         <div>
           <motion.div
-            initial={{ opacity: 0, scale: 0.5 }}
+            initial={{ opacity: 0, scale: 0 }}
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{
               type: "spring",
               stiffness: 100,
               damping: 60,
-              delay: 0.6,
+              delay: 0.4,
             }}
             className="hidden md:flex md:w-[330px] md:h-[100%] overflow-hidden rounded-r-full"
           >
